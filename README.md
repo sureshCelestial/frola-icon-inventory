@@ -1,23 +1,17 @@
-# Sunburst, Ag-Grid, Map example
 
-![screenshot](Mapbox.png?raw=true "Lattice Map Demo")
-![screenshot](Sunburst.png?raw=true "Sunburst Demo")
-![screenshot](AgGrid.png?raw=true "Ag-Grid Demo")
 
 ## How to use
 
-### With clap
+Clone the repo using below command:
+`https://github.com/sureshCelestial/frola-icon-inventory.git`
 
-`clap example rechart-gird-map myApp`
+Change directory:
+`cd froala-icon-inventory`
 
-## Idea behind the example
+Install Dependencies:
+`npm install`
 
-### Map
-- To expose how a Lattice App would look without react-scripts nor other tooling.
-- The current example is using **mapbox** with: navigation, Search, tool MUI Theme (Dark/Night).
-- You can customize Map using Map instance.
+Start the server:
+`npm start`
 
-### Ag-Grid
-- Example with Lattice **Ag-grid** Package.
-- Ag-Gird with filter, sorting, rowDrag feature.
 
