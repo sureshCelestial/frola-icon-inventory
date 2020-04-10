@@ -125,8 +125,7 @@ class App extends Component {
             aria-label="scrollable force tabs example"
           >
             <Tab label="Icons List" icon={<GridOnIcon />} {...a11yProps(0)} />
-            <Tab label="SVG Validator" icon={<MapIcon />} {...a11yProps(1)} />
-            <Tab label="Icons Validator" icon={<MapIcon />} {...a11yProps(2)} />
+            <Tab label="Icons Validator" icon={<MapIcon />} {...a11yProps(1)} />
           </Tabs>
         </AppBar>
         <TabPanel value={this.state.selectedTab} index={0}>
@@ -139,13 +138,6 @@ class App extends Component {
           </Grid>
         </TabPanel>
         <TabPanel value={this.state.selectedTab} index={1}>
-          <Grid container justify="center" spacing={Number(0)}>
-            <Grid item xs={12}>
-              <SVGValidator />
-            </Grid>
-          </Grid>
-        </TabPanel>
-        <TabPanel value={this.state.selectedTab} index={2}>
           <Grid container justify="center" spacing={Number(0)}>
             <Grid item xs={12}>
                 <IconsValidator />

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Dropzone from 'react-dropzone';
-import { parse, stringify } from 'svgson';
+import { stringify } from 'svgson';
 import { Button, Input, FormGroup, Form, Label } from 'reactstrap';
 import { Widget } from '@latticejs/widgets';
 import Grid from '@material-ui/core/Grid';
@@ -15,7 +15,11 @@ class SVGValidator extends Component {
         reader.onload = function (evt) {
             const iconsSet = JSON.parse(evt.target.result);
             for (const icon of iconsSet) {
-              document.getElementById("fileContents").innerHTML += `<section><p>${icon.iconId}: ${stringify(icon.iconInfo)}</p></section>`;
+              if (icon.iconInfo) {
+                document.getElementById("fileContents").innerHTML += `<section><p>${icon.iconId}: ${stringify(icon.iconInfo)}</p></section>`;
+              } else {
+                document.getElementById("fileContents").innerHTML += `<section><p>${icon.iconId}: </p></section>`;
+              }
             }
         }
         reader.onerror = function (evt) {

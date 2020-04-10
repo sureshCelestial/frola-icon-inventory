@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Dropzone from 'react-dropzone';
+import { stringify } from 'svgson';
 import { Button, Input, FormGroup, Form, Label } from 'reactstrap';
 import { Widget } from '@latticejs/widgets';
 import Grid from '@material-ui/core/Grid';
@@ -45,8 +46,13 @@ class IconsValidator extends Component {
     scriptLoaded = () => {
       const { iconsSet } = this.state;
       for (const icon of iconsSet) {
-        console.log(icon.iconClassKey);
-        document.getElementById("fileContents").innerHTML += `<section><p>${icon.iconId}: <i class="${icon.iconClassKey}"></i></p></section>`;
+        if (icon.iconClassKey) {
+          document.getElementById("fileContents").innerHTML += 
+            `<section><p>Source: Library &nbsp; ${icon.iconId}: <i class="${icon.iconClassKey}"></i></p></section>`;
+        } else if (icon.iconInfo) {
+          document.getElementById("fileContents").innerHTML +=
+            `<section><p>Source: SVG Icon &nbsp; ${icon.iconId}: ${stringify(icon.iconInfo)}</p></section>`;
+        }
       }
         // window.A.sort();
     }

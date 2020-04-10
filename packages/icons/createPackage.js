@@ -1,21 +1,15 @@
 const fs = require('fs');
 console.log('\x1b[42m%s\x1b[0m', "Package creation started .....................");
-var myArgs = process.argv.slice(2);
+var className = process.argv.slice(2)[0];
 var result = [];
 const blankIconSet = require('./blankIconSet');
 var selectedIconClassKey = '';
-switch (myArgs[0]) {
+switch (className) {
     case 'FA5': selectedIconClassKey = "fas fa-"; break;
     case 'FA4': selectedIconClassKey = "fa fa-"; break;
     case 'FA3':selectedIconClassKey = "icon-"; break;
     case 'Material':selectedIconClassKey = "zmdi zmdi-"; break;
     default: selectedIconClassKey = myArgs[0]; break;
-        icons.forEach(icon => {
-            result.push({
-                iconId: icon,
-                iconClassKey: myArgs[0] + icon
-            });
-        });
 }
 
 blankIconSet.forEach(icon => {
