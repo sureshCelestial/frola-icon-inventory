@@ -1,11 +1,14 @@
-import icons from '../resources/icons';
+import icons from '../resources/icons.json';
 
 var data = [];
-
-Object.keys(icons).forEach(function(index){
-    icons[index].KEY = index;
-    icons[index].THUMBNAIL = icons[index].FA5NAME || icons[index].NAME;
-    data.push(icons[index]);
-});
+for (let key in icons) {
+    data.push({
+        KEY: key,
+        NAME: icons[key].NAME || '',
+        SVG_KEY: icons[key].SVG_KEY || '',
+        FA5NAME: icons[key].FA5NAME || '',
+        THUMBNAIL: icons[key].FA5NAME || icons[key].NAME
+    });
+}
 
 export default data;

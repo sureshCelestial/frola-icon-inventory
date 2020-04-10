@@ -1,0 +1,503 @@
+{
+    "bold": {
+      "NAME": "bold",
+      "SVG_KEY": "bold",
+      "FA5NAME": "bold",
+      "PATH": "M15.25,11.8h0A3.68,3.68,0,0,0,17,9a3.93,3.93,0,0,0-3.86-4H6.65V19h7a3.74,3.74,0,0,0,3.7-3.78V15.1A3.64,3.64,0,0,0,15.25,11.8ZM8.65,7h4.2a2.09,2.09,0,0,1,2,1.3,2.09,2.09,0,0,1-1.37,2.61,2.23,2.23,0,0,1-.63.09H8.65Zm4.6,10H8.65V13h4.6a2.09,2.09,0,0,1,2,1.3,2.09,2.09,0,0,1-1.37,2.61A2.23,2.23,0,0,1,13.25,17Z"
+    },
+    "italic": {
+      "NAME": "italic",
+      "SVG_KEY": "italic",
+      "FA5NAME": "italic",
+      "PATH": "M11.76,9h2l-2.2,10h-2Zm1.68-4a1,1,0,1,0,1,1,1,1,0,0,0-1-1Z"
+    },
+    "underline": {
+      "NAME": "underline",
+      "SVG_KEY": "underline",
+      "FA5NAME": "underline",
+      "PATH": "M19,20v2H5V20Zm-3-6.785a4,4,0,0,1-5.74,3.4A3.75,3.75,0,0,1,8,13.085V5.005H6v8.21a6,6,0,0,0,8,5.44,5.851,5.851,0,0,0,4-5.65v-8H16ZM16,5v0h2V5ZM8,5H6v0H8Z"
+    },
+    "strikeThrough": {
+      "NAME": "strikethrough",
+      "SVG_KEY": "strikeThrough",
+      "FA5NAME": "strikethrough",
+      "PATH": "M3,12.20294H21v1.5H16.63422a3.59782,3.59782,0,0,1,.34942,1.5929,3.252,3.252,0,0,1-1.31427,2.6997A5.55082,5.55082,0,0,1,12.20251,19a6.4421,6.4421,0,0,1-2.62335-.539,4.46335,4.46335,0,0,1-1.89264-1.48816,3.668,3.668,0,0,1-.67016-2.15546V14.704h.28723v-.0011h.34149v.0011H9.02v.11334a2.18275,2.18275,0,0,0,.85413,1.83069,3.69,3.69,0,0,0,2.32836.67926,3.38778,3.38778,0,0,0,2.07666-.5462,1.73346,1.73346,0,0,0,.7013-1.46655,1.69749,1.69749,0,0,0-.647-1.43439,3.00525,3.00525,0,0,0-.27491-.17725H3ZM16.34473,7.05981A4.18163,4.18163,0,0,0,14.6236,5.5462,5.627,5.627,0,0,0,12.11072,5,5.16083,5.16083,0,0,0,8.74719,6.06213,3.36315,3.36315,0,0,0,7.44006,8.76855a3.22923,3.22923,0,0,0,.3216,1.42786h2.59668c-.08338-.05365-.18537-.10577-.25269-.16064a1.60652,1.60652,0,0,1-.65283-1.30036,1.79843,1.79843,0,0,1,.68842-1.5108,3.12971,3.12971,0,0,1,1.96948-.55243,3.04779,3.04779,0,0,1,2.106.6687,2.35066,2.35066,0,0,1,.736,1.83258v.11341h2.00317V9.17346A3.90013,3.90013,0,0,0,16.34473,7.05981Z"
+    },
+    "subscript": {
+      "NAME": "subscript",
+      "SVG_KEY": "subscript",
+      "FA5NAME": "subscript",
+      "PATH": "M10.4,12l3.6,3.6L12.6,17L9,13.4L5.4,17L4,15.6L7.6,12L4,8.4L5.4,7L9,10.6L12.6,7L14,8.4L10.4,12z M18.31234,19.674  l1.06812-1.1465c0.196-0.20141,0.37093-0.40739,0.5368-0.6088c0.15975-0.19418,0.30419-0.40046,0.432-0.617  c0.11969-0.20017,0.21776-0.41249,0.29255-0.6334c0.07103-0.21492,0.10703-0.43986,0.10662-0.66621  c0.00297-0.28137-0.04904-0.56062-0.1531-0.82206c-0.09855-0.24575-0.25264-0.46534-0.45022-0.6416  c-0.20984-0.18355-0.45523-0.32191-0.72089-0.40646c-0.63808-0.19005-1.3198-0.17443-1.94851,0.04465  c-0.28703,0.10845-0.54746,0.2772-0.76372,0.49487c-0.20881,0.20858-0.37069,0.45932-0.47483,0.73548  c-0.10002,0.26648-0.15276,0.54838-0.15585,0.833l-0.00364,0.237H17.617l0.00638-0.22692  c0.00158-0.12667,0.01966-0.25258,0.05377-0.37458c0.03337-0.10708,0.08655-0.20693,0.15679-0.29437  c0.07105-0.08037,0.15959-0.14335,0.25882-0.1841c0.22459-0.08899,0.47371-0.09417,0.7018-0.01458  c0.0822,0.03608,0.15559,0.08957,0.21509,0.15679c0.06076,0.07174,0.10745,0.15429,0.13761,0.24333  c0.03567,0.10824,0.05412,0.22141,0.05469,0.33538c-0.00111,0.08959-0.0118,0.17881-0.0319,0.26612  c-0.02913,0.10428-0.07076,0.20465-0.124,0.29893c-0.07733,0.13621-0.1654,0.26603-0.26338,0.38823  c-0.13438,0.17465-0.27767,0.34226-0.42929,0.50217l-2.15634,2.35315V21H21v-1.326H18.31234z"
+    },
+    "superscript": {
+      "NAME": "superscript",
+      "SVG_KEY": "superscript",
+      "FA5NAME": "superscript",
+      "PATH": "M10.4,12,14,15.6,12.6,17,9,13.4,5.4,17,4,15.6,7.6,12,4,8.4,5.4,7,9,10.6,12.6,7,14,8.4Zm8.91234-3.326,1.06812-1.1465c.196-.20141.37093-.40739.5368-.6088a4.85745,4.85745,0,0,0,.432-.617,3.29,3.29,0,0,0,.29255-.6334,2.11079,2.11079,0,0,0,.10662-.66621,2.16127,2.16127,0,0,0-.1531-.82206,1.7154,1.7154,0,0,0-.45022-.6416,2.03,2.03,0,0,0-.72089-.40646,3.17085,3.17085,0,0,0-1.94851.04465,2.14555,2.14555,0,0,0-.76372.49487,2.07379,2.07379,0,0,0-.47483.73548,2.446,2.446,0,0,0-.15585.833l-.00364.237H18.617L18.62338,5.25a1.45865,1.45865,0,0,1,.05377-.37458.89552.89552,0,0,1,.15679-.29437.70083.70083,0,0,1,.25882-.1841,1.00569,1.00569,0,0,1,.7018-.01458.62014.62014,0,0,1,.21509.15679.74752.74752,0,0,1,.13761.24333,1.08893,1.08893,0,0,1,.05469.33538,1.25556,1.25556,0,0,1-.0319.26612,1.34227,1.34227,0,0,1-.124.29893,2.94367,2.94367,0,0,1-.26338.38823,6.41629,6.41629,0,0,1-.42929.50217L17.19709,8.92642V10H22V8.674Z"
+    },
+    "color": {
+      "NAME": "tint",
+      "SVG_KEY": "textColor"
+    },
+    "outdent": {
+      "NAME": "outdent",
+      "SVG_KEY": "outdent"
+    },
+    "indent": {
+      "NAME": "indent",
+      "SVG_KEY": "indent"
+    },
+    "undo": {
+      "NAME": "rotate-left",
+      "FA5NAME": "undo",
+      "SVG_KEY": "undo"
+    },
+    "redo": {
+      "NAME": "rotate-right",
+      "FA5NAME": "redo",
+      "SVG_KEY": "redo"
+    },
+    "insertHR": {
+      "NAME": "minus",
+      "SVG_KEY": "horizontalLine"
+    },
+    "clearFormatting": {
+      "NAME": "eraser",
+      "SVG_KEY": "clearFormatting",
+      "FA5NAME": "eraser",
+      "PATH": "M11.48,10.09l-1.2-1.21L8.8,7.41,6.43,5,5.37,6.1,8.25,9,4.66,19h2l1.43-4h5.14l1.43,4h2l-.89-2.51L18.27,19l1.07-1.06L14.59,13.2ZM8.8,13l.92-2.56L12.27,13Zm.56-7.15L9.66,5h2l1.75,4.9Z"
+    },
+    "selectAll": {
+      "NAME": "mouse-pointer",
+      "SVG_KEY": "selectAll"
+    },
+    "moreText": {
+      "NAME": "ellipsis-v",
+      "SVG_KEY": "textMore"
+    },
+    "moreParagraph": {
+      "NAME": "ellipsis-v",
+      "SVG_KEY": "paragraphMore"
+    },
+    "moreRich": {
+      "NAME": "ellipsis-v",
+      "SVG_KEY": "insertMore"
+    },
+    "moreMisc": {
+      "NAME": "ellipsis-v",
+      "SVG_KEY": "more"
+    },
+    "align": {
+      "NAME": "align-left",
+      "SVG_KEY": "alignLeft"
+    },
+    "align-left": {
+      "NAME": "align-left",
+      "SVG_KEY": "alignLeft"
+    },
+    "align-right": {
+      "NAME": "align-right",
+      "SVG_KEY": "alignRight"
+    },
+    "align-center": {
+      "NAME": "align-center",
+      "SVG_KEY": "alignCenter"
+    },
+    "align-justify": {
+      "NAME": "align-justify",
+      "SVG_KEY": "alignJustify"
+    },
+    "html": {
+      "NAME": "code",
+      "SVG_KEY": "codeView"
+    },
+    "textColor": {
+      "NAME": "tint",
+      "SVG_KEY": "textColor",
+      "FA5NAME": "tint",
+      "PATH": "M15.2,13.494s-3.6,3.9-3.6,6.3a3.65,3.65,0,0,0,7.3.1v-.1C18.9,17.394,15.2,13.494,15.2,13.494Zm-1.47-1.357.669-.724L12.1,5h-2l-5,14h2l1.43-4h2.943A24.426,24.426,0,0,1,13.726,12.137ZM11.1,7.8l1.86,5.2H9.244Z"
+    },
+    "backgroundColor": {
+      "NAME": "paint-brush",
+      "SVG_KEY": "backgroundColor",
+      "FA5NAME": "paint-brush",
+      "PATH": "M9.91752,12.24082l7.74791-5.39017,1.17942,1.29591-6.094,7.20747L9.91752,12.24082M7.58741,12.652l4.53533,4.98327a.93412.93412,0,0,0,1.39531-.0909L20.96943,8.7314A.90827.90827,0,0,0,20.99075,7.533l-2.513-2.76116a.90827.90827,0,0,0-1.19509-.09132L7.809,11.27135A.93412.93412,0,0,0,7.58741,12.652ZM2.7939,18.52772,8.41126,19.5l1.47913-1.34617-3.02889-3.328Z"
+    },
+    "colorsBack": {
+      "NAME": "arrow-left",
+      "SVG_KEY": "back"
+    },
+    "remove": {
+      "NAME": "eraser",
+      "SVG_KEY": "remove"
+    },
+    "emoticons": {
+      "NAME": "smile-o",
+      "FA5NAME": "smile",
+      "SVG_KEY": "smile"
+    },
+    "emoticonsBack": {
+      "NAME": "arrow-left",
+      "SVG_KEY": "back"
+    },
+    "insertFile": {
+      "NAME": "file-o",
+      "FA5NAME": "file",
+      "SVG_KEY": "insertFile"
+    },
+    "fileBack": {
+      "NAME": "arrow-left",
+      "SVG_KEY": "back"
+    },
+    "fontFamily": {
+      "NAME": "font",
+      "SVG_KEY": "fontFamily",
+      "FA5NAME": "font",
+      "PATH": "M16,19h2L13,5H11L6,19H8l1.43-4h5.14Zm-5.86-6L12,7.8,13.86,13Z"
+    },
+    "fontSize": {
+      "NAME": "text-height",
+      "SVG_KEY": "fontSize",
+      "FA5NAME": "text-height",
+      "PATH": "M20.75,19h1.5l-3-10h-1.5l-3,10h1.5L17,16.5h3Zm-3.3-4,1.05-3.5L19.55,15Zm-5.7,4h2l-5-14h-2l-5,14h2l1.43-4h5.14ZM5.89,13,7.75,7.8,9.61,13Z"
+    },
+    "inputStyle": {
+      "NAME": "magic",
+      "SVG_KEY": "inlineStyle"
+    },
+    "inputEdit": {
+      "NAME": "edit",
+      "SVG_KEY": "edit"
+    },
+    "inputBack": {
+      "NAME": "arrow-left",
+      "SVG_KEY": "back"
+    },
+    "fullscreen": {
+      "NAME": "expand",
+      "SVG_KEY": "fullscreen"
+    },
+    "fullscreenCompress": {
+      "NAME": "compress",
+      "SVG_KEY": "exitFullscreen"
+    },
+    "help": {
+      "NAME": "question",
+      "SVG_KEY": "help"
+    },
+    "insertImage": {
+      "NAME": "image",
+      "SVG_KEY": "insertImage"
+    },
+    "imageUpload": {
+      "NAME": "upload",
+      "SVG_KEY": "upload"
+    },
+    "imageByURL": {
+      "NAME": "link",
+      "SVG_KEY": "insertLink"
+    },
+    "imageDisplay": {
+      "NAME": "star",
+      "SVG_KEY": "imageDisplay"
+    },
+    "image-align": {
+      "NAME": "align-left",
+      "SVG_KEY": "alignLeft"
+    },
+    "image-align-left": {
+      "NAME": "align-left",
+      "SVG_KEY": "alignLeft"
+    },
+    "image-align-right": {
+      "NAME": "align-right",
+      "SVG_KEY": "alignRight"
+    },
+    "image-align-center": {
+      "NAME": "align-justify",
+      "SVG_KEY": "alignCenter"
+    },
+    "imageAlign": {
+      "NAME": "align-justify",
+      "SVG_KEY": "alignJustify"
+    },
+    "imageReplace": {
+      "NAME": "exchange",
+      "FA5NAME": "exchange-alt",
+      "SVG_KEY": "replaceImage"
+    },
+    "imageRemove": {
+      "NAME": "trash",
+      "SVG_KEY": "remove"
+    },
+    "imageBack": {
+      "NAME": "arrow-left",
+      "SVG_KEY": "back"
+    },
+    "imageStyle": {
+      "NAME": "magic",
+      "SVG_KEY": "imageClass"
+    },
+    "imageAlt": {
+      "NAME": "info",
+      "SVG_KEY": "imageAltText"
+    },
+    "imageSize": {
+      "NAME": "arrows-alt",
+      "SVG_KEY": "imageSize"
+    },
+    "imageCaption": {
+      "NAME": "commenting",
+      "FA5NAME": "comment-alt",
+      "SVG_KEY": "imageCaption"
+    },
+    "imageManager": {
+      "NAME": "folder",
+      "SVG_KEY": "imageManager"
+    },
+    "imageManagerInsert": {
+      "NAME": "plus",
+      "SVG_KEY": "add"
+    },
+    "imageManagerDelete": {
+      "NAME": "trash",
+      "SVG_KEY": "remove"
+    },
+    "inlineClass": {
+      "NAME": "tag",
+      "SVG_KEY": "inlineClass",
+      "FA5NAME": "tag",
+      "PATH": "M9.9,13.313A1.2,1.2,0,0,1,9.968,13H6.277l1.86-5.2,1.841,5.148A1.291,1.291,0,0,1,11.212,12h.426l-2.5-7h-2l-5,14h2l1.43-4H9.9Zm2.651,6.727a2.884,2.884,0,0,1-.655-2.018v-2.71A1.309,1.309,0,0,1,13.208,14h3.113a3.039,3.039,0,0,1,2,1.092s1.728,1.818,2.964,2.928a1.383,1.383,0,0,1,.318,1.931,1.44,1.44,0,0,1-.19.215l-3.347,3.31a1.309,1.309,0,0,1-1.832.258h0a1.282,1.282,0,0,1-.258-.257l-1.71-1.728Zm2.48-3.96a.773.773,0,1,0,.008,0Z"
+    },
+    "inlineStyle": {
+      "NAME": "paint-brush",
+      "SVG_KEY": "inlineStyle",
+      "FA5NAME": "paint-brush",
+      "PATH": "M11.88,15h.7l.7-1.7-3-8.3h-2l-5,14h2l1.4-4Zm-4.4-2,1.9-5.2,1.9,5.2ZM15.4,21.545l3.246,1.949-.909-3.637L20.72,17H16.954l-1.429-3.506L13.837,17H10.071l2.857,2.857-.779,3.637Z"
+    },
+    "lineHeight": {
+      "NAME": "arrows-v",
+      "FA5NAME": "arrows-alt-v",
+      "SVG_KEY": "lineHeight"
+    },
+    "insertLink": {
+      "NAME": "link",
+      "SVG_KEY": "insertLink"
+    },
+    "linkOpen": {
+      "NAME": "external-link",
+      "FA5NAME": "external-link-alt",
+      "SVG_KEY": "openLink"
+    },
+    "linkEdit": {
+      "NAME": "edit",
+      "SVG_KEY": "edit"
+    },
+    "linkRemove": {
+      "NAME": "unlink",
+      "SVG_KEY": "unlink"
+    },
+    "linkBack": {
+      "NAME": "arrow-left",
+      "SVG_KEY": "back"
+    },
+    "linkList": {
+      "NAME": "search",
+      "SVG_KEY": "search"
+    },
+    "imageLink": {
+      "NAME": "link",
+      "SVG_KEY": "insertLink"
+    },
+    "linkStyle": {
+      "NAME": "magic",
+      "SVG_KEY": "linkStyles"
+    },
+    "formatOLSimple": {
+      "NAME": "list-ol",
+      "SVG_KEY": "orderedList"
+    },
+    "formatUL": {
+      "NAME": "list-ul",
+      "SVG_KEY": "unorderedList"
+    },
+    "formatOL": {
+      "NAME": "list-ol",
+      "SVG_KEY": "orderedList"
+    },
+    "paragraphFormat": {
+      "NAME": "paragraph",
+      "SVG_KEY": "paragraphFormat"
+    },
+    "paragraphStyle": {
+      "NAME": "magic",
+      "SVG_KEY": "paragraphStyle"
+    },
+    "print": {
+      "NAME": "print",
+      "SVG_KEY": "print"
+    },
+    "getPDF": {
+      "NAME": "file-pdf-o",
+      "FA5NAME": "file-pdf",
+      "SVG_KEY": "pdfExport"
+    },
+    "quickInsert": {
+      "SVG_KEY": "add",
+      "template": "svg"
+    },
+    "quote": {
+      "NAME": "quote-left",
+      "SVG_KEY": "blockquote"
+    },
+    "save": {
+      "NAME": "floppy-o",
+      "FA5NAME": "save"
+    },
+    "specialCharacters": {
+      "NAME": "dollar-sign",
+      "SVG_KEY": "symbols"
+    },
+    "specialCharBack": {
+      "NAME": "arrow-left",
+      "SVG_KEY": "back"
+    },
+    "insertTable": {
+      "NAME": "table",
+      "SVG_KEY": "insertTable"
+    },
+    "tableHeader": {
+      "NAME": "header",
+      "FA5NAME": "heading",
+      "SVG_KEY": "tableHeader"
+    },
+    "tableRows": {
+      "NAME": "bars",
+      "SVG_KEY": "row"
+    },
+    "tableColumns": {
+      "NAME": "bars fa-rotate-90",
+      "SVG_KEY": "columns"
+    },
+    "tableCells": {
+      "NAME": "square-o",
+      "FA5NAME": "square",
+      "SVG_KEY": "cellOptions"
+    },
+    "tableRemove": {
+      "NAME": "trash",
+      "SVG_KEY": "removeTable"
+    },
+    "tableStyle": {
+      "NAME": "paint-brush",
+      "SVG_KEY": "tableStyle"
+    },
+    "tableCellBackground": {
+      "NAME": "tint",
+      "SVG_KEY": "cellBackground"
+    },
+    "tableBack": {
+      "NAME": "arrow-left",
+      "SVG_KEY": "back"
+    },
+    "tableCellVerticalAlign": {
+      "NAME": "arrows-v",
+      "FA5NAME": "arrows-alt-v",
+      "SVG_KEY": "verticalAlignMiddle"
+    },
+    "tableCellHorizontalAlign": {
+      "NAME": "align-left",
+      "SVG_KEY": "alignLeft"
+    },
+    "tableCellStyle": {
+      "NAME": "magic",
+      "SVG_KEY": "cellStyle"
+    },
+    "tableColorRemove": {
+      "NAME": "eraser",
+      "SVG_KEY": "remove"
+    },
+    "insertVideo": {
+      "NAME": "video-camera",
+      "FA5NAME": "camera",
+      "SVG_KEY": "insertVideo"
+    },
+    "videoByURL": {
+      "NAME": "link",
+      "SVG_KEY": "insertLink"
+    },
+    "videoEmbed": {
+      "NAME": "code",
+      "SVG_KEY": "codeView"
+    },
+    "videoUpload": {
+      "NAME": "upload",
+      "SVG_KEY": "upload"
+    },
+    "videoDisplay": {
+      "NAME": "star",
+      "SVG_KEY": "star"
+    },
+    "video-align": {
+      "NAME": "align-left",
+      "SVG_KEY": "align Left"
+    },
+    "video-align-left": {
+      "NAME": "align-left",
+      "SVG_KEY": "alignLeft"
+    },
+    "video-align-right": {
+      "NAME": "align-right",
+      "SVG_KEY": "alignRight"
+    },
+    "video-align-center": {
+      "NAME": "align-justify",
+      "SVG_KEY": "alignJustify"
+    },
+    "videoAlign": {
+      "NAME": "align-center",
+      "SVG_KEY": "alignCenter"
+    },
+    "videoReplace": {
+      "NAME": "exchange",
+      "FA5NAME": "exchange-alt",
+      "SVG_KEY": "replaceImage"
+    },
+    "videoRemove": {
+      "NAME": "trash",
+      "SVG_KEY": "remove"
+    },
+    "videoSize": {
+      "NAME": "arrows-alt",
+      "SVG_KEY": "imageSize"
+    },
+    "videoBack": {
+      "NAME": "arrow-left",
+      "SVG_KEY": "back"
+    },
+    "embedly": {
+      "NAME": "share-alt",
+      "SVG_KEY": "insertEmbed"
+    },
+    "embedlyRemove": {
+      "NAME": "trash",
+      "SVG_KEY": "remove"
+    },
+    "embedlyBack": {
+      "NAME": "arrow-left",
+      "SVG_KEY": "back"
+    },
+    "fontAwesome": {
+      "NAME": "flag",
+      "SVG_KEY": "fontAwesome"
+    },
+    "fontAwesomeBack": {
+      "NAME": "arrow-left",
+      "SVG_KEY": "back"
+    },
+    "imageTUI": {
+      "NAME": "sliders",
+      "FA5NAME": "sliders-h",
+      "SVG_KEY": "advancedImageEditor"
+    }
+  }
