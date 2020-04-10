@@ -1,14 +1,462 @@
 [
   {
     "iconId": "bold",
-    "iconClassKey": "fa fa-bold"
+    "iconClassKey": "fas fa-bold"
   },
   {
     "iconId": "italic",
-    "iconClassKey": "fa fa-italic"
+    "iconClassKey": "fas fa-italic"
   },
   {
     "iconId": "underline",
-    "iconClassKey": "fa fa-underline"
+    "iconClassKey": "fas fa-underline"
+  },
+  {
+    "iconId": "strikeThrough",
+    "iconClassKey": "fas fa-strikeThrough"
+  },
+  {
+    "iconId": "subscript",
+    "iconClassKey": "fas fa-subscript"
+  },
+  {
+    "iconId": "superscript",
+    "iconClassKey": "fas fa-superscript"
+  },
+  {
+    "iconId": "color",
+    "iconClassKey": "fas fa-color"
+  },
+  {
+    "iconId": "outdent",
+    "iconClassKey": "fas fa-outdent"
+  },
+  {
+    "iconId": "indent",
+    "iconClassKey": "fas fa-indent"
+  },
+  {
+    "iconId": "undo",
+    "iconClassKey": "fas fa-undo"
+  },
+  {
+    "iconId": "redo",
+    "iconClassKey": "fas fa-redo"
+  },
+  {
+    "iconId": "insertHR",
+    "iconClassKey": "fas fa-insertHR"
+  },
+  {
+    "iconId": "clearFormatting",
+    "iconClassKey": "fas fa-clearFormatting"
+  },
+  {
+    "iconId": "selectAll",
+    "iconClassKey": "fas fa-selectAll"
+  },
+  {
+    "iconId": "moreText",
+    "iconClassKey": "fas fa-moreText"
+  },
+  {
+    "iconId": "moreParagraph",
+    "iconClassKey": "fas fa-moreParagraph"
+  },
+  {
+    "iconId": "moreRich",
+    "iconClassKey": "fas fa-moreRich"
+  },
+  {
+    "iconId": "moreMisc",
+    "iconClassKey": "fas fa-moreMisc"
+  },
+  {
+    "iconId": "align",
+    "iconClassKey": "fas fa-align"
+  },
+  {
+    "iconId": "alignLeft",
+    "iconClassKey": "fas fa-alignLeft"
+  },
+  {
+    "iconId": "alignRight",
+    "iconClassKey": "fas fa-alignRight"
+  },
+  {
+    "iconId": "alignCenter",
+    "iconClassKey": "fas fa-alignCenter"
+  },
+  {
+    "iconId": "alignJustify",
+    "iconClassKey": "fas fa-alignJustify"
+  },
+  {
+    "iconId": "html",
+    "iconClassKey": "fas fa-html"
+  },
+  {
+    "iconId": "textColor",
+    "iconClassKey": "fas fa-textColor"
+  },
+  {
+    "iconId": "backgroundColor",
+    "iconClassKey": "fas fa-backgroundColor"
+  },
+  {
+    "iconId": "colorsBack",
+    "iconClassKey": "fas fa-colorsBack"
+  },
+  {
+    "iconId": "remove",
+    "iconClassKey": "fas fa-remove"
+  },
+  {
+    "iconId": "emoticons",
+    "iconClassKey": "fas fa-emoticons"
+  },
+  {
+    "iconId": "emoticonsBack",
+    "iconClassKey": "fas fa-emoticonsBack"
+  },
+  {
+    "iconId": "insertFile",
+    "iconClassKey": "fas fa-insertFile"
+  },
+  {
+    "iconId": "fileBack",
+    "iconClassKey": "fas fa-fileBack"
+  },
+  {
+    "iconId": "fontFamily",
+    "iconClassKey": "fas fa-fontFamily"
+  },
+  {
+    "iconId": "fontSize",
+    "iconClassKey": "fas fa-fontSize"
+  },
+  {
+    "iconId": "inputStyle",
+    "iconClassKey": "fas fa-inputStyle"
+  },
+  {
+    "iconId": "inputEdit",
+    "iconClassKey": "fas fa-inputEdit"
+  },
+  {
+    "iconId": "inputBack",
+    "iconClassKey": "fas fa-inputBack"
+  },
+  {
+    "iconId": "fullscreen",
+    "iconClassKey": "fas fa-fullscreen"
+  },
+  {
+    "iconId": "fullscreenCompress",
+    "iconClassKey": "fas fa-fullscreenCompress"
+  },
+  {
+    "iconId": "help",
+    "iconClassKey": "fas fa-help"
+  },
+  {
+    "iconId": "insertImage",
+    "iconClassKey": "fas fa-insertImage"
+  },
+  {
+    "iconId": "imageUpload",
+    "iconClassKey": "fas fa-imageUpload"
+  },
+  {
+    "iconId": "imageByURL",
+    "iconClassKey": "fas fa-imageByURL"
+  },
+  {
+    "iconId": "imageDisplay",
+    "iconClassKey": "fas fa-imageDisplay"
+  },
+  {
+    "iconId": "imageAlign",
+    "iconClassKey": "fas fa-imageAlign"
+  },
+  {
+    "iconId": "imageAlignLeft",
+    "iconClassKey": "fas fa-imageAlignLeft"
+  },
+  {
+    "iconId": "imageAlignRight",
+    "iconClassKey": "fas fa-imageAlignRight"
+  },
+  {
+    "iconId": "imageAlignCenter",
+    "iconClassKey": "fas fa-imageAlignCenter"
+  },
+  {
+    "iconId": "imageAlignJustify",
+    "iconClassKey": "fas fa-imageAlignJustify"
+  },
+  {
+    "iconId": "imageReplace",
+    "iconClassKey": "fas fa-imageReplace"
+  },
+  {
+    "iconId": "imageRemove",
+    "iconClassKey": "fas fa-imageRemove"
+  },
+  {
+    "iconId": "imageBack",
+    "iconClassKey": "fas fa-imageBack"
+  },
+  {
+    "iconId": "imageStyle",
+    "iconClassKey": "fas fa-imageStyle"
+  },
+  {
+    "iconId": "imageAlt",
+    "iconClassKey": "fas fa-imageAlt"
+  },
+  {
+    "iconId": "imageSize",
+    "iconClassKey": "fas fa-imageSize"
+  },
+  {
+    "iconId": "imageCaption",
+    "iconClassKey": "fas fa-imageCaption"
+  },
+  {
+    "iconId": "imageManager",
+    "iconClassKey": "fas fa-imageManager"
+  },
+  {
+    "iconId": "imageManagerInsert",
+    "iconClassKey": "fas fa-imageManagerInsert"
+  },
+  {
+    "iconId": "imageManagerDelete",
+    "iconClassKey": "fas fa-imageManagerDelete"
+  },
+  {
+    "iconId": "inlineClass",
+    "iconClassKey": "fas fa-inlineClass"
+  },
+  {
+    "iconId": "inlineStyle",
+    "iconClassKey": "fas fa-inlineStyle"
+  },
+  {
+    "iconId": "lineHeight",
+    "iconClassKey": "fas fa-lineHeight"
+  },
+  {
+    "iconId": "insertLink",
+    "iconClassKey": "fas fa-insertLink"
+  },
+  {
+    "iconId": "linkOpen",
+    "iconClassKey": "fas fa-linkOpen"
+  },
+  {
+    "iconId": "linkEdit",
+    "iconClassKey": "fas fa-linkEdit"
+  },
+  {
+    "iconId": "linkRemove",
+    "iconClassKey": "fas fa-linkRemove"
+  },
+  {
+    "iconId": "linkBack",
+    "iconClassKey": "fas fa-linkBack"
+  },
+  {
+    "iconId": "linkList",
+    "iconClassKey": "fas fa-linkList"
+  },
+  {
+    "iconId": "imageLink",
+    "iconClassKey": "fas fa-imageLink"
+  },
+  {
+    "iconId": "linkStyle",
+    "iconClassKey": "fas fa-linkStyle"
+  },
+  {
+    "iconId": "formatOLSimple",
+    "iconClassKey": "fas fa-formatOLSimple"
+  },
+  {
+    "iconId": "formatUL",
+    "iconClassKey": "fas fa-formatUL"
+  },
+  {
+    "iconId": "formatOL",
+    "iconClassKey": "fas fa-formatOL"
+  },
+  {
+    "iconId": "paragraphFormat",
+    "iconClassKey": "fas fa-paragraphFormat"
+  },
+  {
+    "iconId": "paragraphStyle",
+    "iconClassKey": "fas fa-paragraphStyle"
+  },
+  {
+    "iconId": "print",
+    "iconClassKey": "fas fa-print"
+  },
+  {
+    "iconId": "getPDF",
+    "iconClassKey": "fas fa-getPDF"
+  },
+  {
+    "iconId": "quickInsert",
+    "iconClassKey": "fas fa-quickInsert"
+  },
+  {
+    "iconId": "quote",
+    "iconClassKey": "fas fa-quote"
+  },
+  {
+    "iconId": "save",
+    "iconClassKey": "fas fa-save"
+  },
+  {
+    "iconId": "specialCharacters",
+    "iconClassKey": "fas fa-specialCharacters"
+  },
+  {
+    "iconId": "specialCharBack",
+    "iconClassKey": "fas fa-specialCharBack"
+  },
+  {
+    "iconId": "insertTable",
+    "iconClassKey": "fas fa-insertTable"
+  },
+  {
+    "iconId": "tableHeader",
+    "iconClassKey": "fas fa-tableHeader"
+  },
+  {
+    "iconId": "tableRows",
+    "iconClassKey": "fas fa-tableRows"
+  },
+  {
+    "iconId": "tableColumns",
+    "iconClassKey": "fas fa-tableColumns"
+  },
+  {
+    "iconId": "tableCells",
+    "iconClassKey": "fas fa-tableCells"
+  },
+  {
+    "iconId": "tableRemove",
+    "iconClassKey": "fas fa-tableRemove"
+  },
+  {
+    "iconId": "tableStyle",
+    "iconClassKey": "fas fa-tableStyle"
+  },
+  {
+    "iconId": "tableCellBackground",
+    "iconClassKey": "fas fa-tableCellBackground"
+  },
+  {
+    "iconId": "tableBack",
+    "iconClassKey": "fas fa-tableBack"
+  },
+  {
+    "iconId": "tableCellVerticalAlign",
+    "iconClassKey": "fas fa-tableCellVerticalAlign"
+  },
+  {
+    "iconId": "tableCellHorizontalAlign",
+    "iconClassKey": "fas fa-tableCellHorizontalAlign"
+  },
+  {
+    "iconId": "tableCellStyle",
+    "iconClassKey": "fas fa-tableCellStyle"
+  },
+  {
+    "iconId": "tableColorRemove",
+    "iconClassKey": "fas fa-tableColorRemove"
+  },
+  {
+    "iconId": "insertVideo",
+    "iconClassKey": "fas fa-insertVideo"
+  },
+  {
+    "iconId": "videoByURL",
+    "iconClassKey": "fas fa-videoByURL"
+  },
+  {
+    "iconId": "videoEmbed",
+    "iconClassKey": "fas fa-videoEmbed"
+  },
+  {
+    "iconId": "videoUpload",
+    "iconClassKey": "fas fa-videoUpload"
+  },
+  {
+    "iconId": "videoDisplay",
+    "iconClassKey": "fas fa-videoDisplay"
+  },
+  {
+    "iconId": "videoAlign",
+    "iconClassKey": "fas fa-videoAlign"
+  },
+  {
+    "iconId": "videoAlignLeft",
+    "iconClassKey": "fas fa-videoAlignLeft"
+  },
+  {
+    "iconId": "videoAlignRight",
+    "iconClassKey": "fas fa-videoAlignRight"
+  },
+  {
+    "iconId": "videoAlignJustify",
+    "iconClassKey": "fas fa-videoAlignJustify"
+  },
+  {
+    "iconId": "videoAlignCenter",
+    "iconClassKey": "fas fa-videoAlignCenter"
+  },
+  {
+    "iconId": "videoReplace",
+    "iconClassKey": "fas fa-videoReplace"
+  },
+  {
+    "iconId": "videoRemove",
+    "iconClassKey": "fas fa-videoRemove"
+  },
+  {
+    "iconId": "videoSize",
+    "iconClassKey": "fas fa-videoSize"
+  },
+  {
+    "iconId": "videoBack",
+    "iconClassKey": "fas fa-videoBack"
+  },
+  {
+    "iconId": "embedly",
+    "iconClassKey": "fas fa-embedly"
+  },
+  {
+    "iconId": "embedlyRemove",
+    "iconClassKey": "fas fa-embedlyRemove"
+  },
+  {
+    "iconId": "embedlyBack",
+    "iconClassKey": "fas fa-embedlyBack"
+  },
+  {
+    "iconId": "fontAwesome",
+    "iconClassKey": "fas fa-fontAwesome"
+  },
+  {
+    "iconId": "fontAwesomeBack",
+    "iconClassKey": "fas fa-fontAwesomeBack"
+  },
+  {
+    "iconId": "imageTUI",
+    "iconClassKey": "fas fa-imageTUI"
   }
 ]

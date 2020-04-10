@@ -24,9 +24,7 @@ class IconsValidator extends Component {
         var reader = new FileReader();
         reader.readAsText(file, "UTF-8");
         reader.onload = (evt) => {
-            this.setState({
-                iconsSet: JSON.parse(evt.target.result)
-            });
+            this.setState({ iconsSet: JSON.parse(evt.target.result) });
         }
         reader.onerror = () => {
             document.getElementById("fileContents").innerHTML = "error reading file";
@@ -35,20 +33,22 @@ class IconsValidator extends Component {
     }
 
     validateIcons = () => {
-        const { url, iconsSet } = this.state;
+        const { url } = this.state;
         const script = document.createElement("script");
         script.src = url;
         script.async = true;
         script.onload = () => this.scriptLoaded();
         document.body.appendChild(script);
         
-        for (const icon of iconsSet) {
-          document.getElementById("fileContents").innerHTML += `<section><p>${icon.iconId}: <i class="${icon.iconClassKey}"></i></p></section>`;
-        }
     }
 
     scriptLoaded = () => {
-        window.A.sort();
+      const { iconsSet } = this.state;
+      for (const icon of iconsSet) {
+        console.log(icon.iconClassKey);
+        document.getElementById("fileContents").innerHTML += `<section><p>${icon.iconId}: <i class="${icon.iconClassKey}"></i></p></section>`;
+      }
+        // window.A.sort();
     }
 
     handleInputChange = (event) =>  {
