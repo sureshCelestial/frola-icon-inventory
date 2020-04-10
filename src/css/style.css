@@ -6,3 +6,7 @@
     height: 40px;
     width: 38px;
 }
+
+.MuiGrid-item {
+    margin: 17px !important;
+}

@@ -6,7 +6,7 @@ import '@latticejs/ag-grid/styles/lattice-ag-grid-style.css';
 import dataArr from '../helper/helper';
 import '../css/style.css';
 
-class AgGrid extends Component {
+class FroalaIcons extends Component {
   constructor(props) {
     super(props);
     this.rowData = dataArr;
@@ -94,4 +94,4 @@ class AgGrid extends Component {
   }
 }
 
-export default AgGrid;
+export default FroalaIcons;

@@ -1,0 +1,14 @@
+[
+  {
+    "iconId": "bold",
+    "iconClassKey": "fa fa-bold"
+  },
+  {
+    "iconId": "italic",
+    "iconClassKey": "fa fa-italic"
+  },
+  {
+    "iconId": "underline",
+    "iconClassKey": "fa fa-underline"
+  }
+]

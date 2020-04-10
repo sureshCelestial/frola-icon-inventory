@@ -9,8 +9,14 @@ import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 
 import PropTypes from 'prop-types';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
+import GridOnIcon from '@material-ui/icons/GridOn';
+import MapIcon from '@material-ui/icons/Map';
 import Box from '@material-ui/core/Box';
-import AgGrid from './components/AgGrid';
+import FroalaIcons from './components/FroalaIcons';
+import IconsValidator from './components/IconsValidator';
+import SVGValidator from './components/SVGValidator';
 
 // Lattice
 import { Widget } from '@latticejs/widgets';
@@ -67,10 +73,30 @@ TabPanel.propTypes = {
   value: PropTypes.any
 };
 
+function a11yProps(index) {
+  return {
+    id: `scrollable-force-tab-${index}`,
+    'aria-controls': `scrollable-force-tabpanel-${index}`
+  };
+}
+
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      selectedTab: 0
+    };
+  }
+
   handleNightModeChange = () => {
     const { updateTheme, nightMode } = this.props;
     updateTheme(!nightMode);
+  };
+
+  handleChange = (event, newTab) => {
+    this.setState({
+      selectedTab: newTab
+    });
   };
   
   render() {
@@ -81,7 +107,7 @@ class App extends Component {
         <AppBar position="static" className={classes.appBar}>
           <Toolbar>
             <Typography variant="h6" color="inherit" className={classes.flex}>
-              Froala Editor Icons List
+              Froala Editor Application
             </Typography>
             <Tooltip title="Toggle Night Mode" enterDelay={300}>
               <IconButton onClick={this.handleNightModeChange} color="inherit">
@@ -90,12 +116,39 @@ class App extends Component {
             </Tooltip>
           </Toolbar>
         </AppBar>
-        <TabPanel>
+        <AppBar position="static" color="default">
+          <Tabs
+            value={this.state.selectedTab}
+            onChange={this.handleChange}
+            indicatorColor="primary"
+            textColor="primary"
+            aria-label="scrollable force tabs example"
+          >
+            <Tab label="Icons List" icon={<GridOnIcon />} {...a11yProps(0)} />
+            <Tab label="SVG Validator" icon={<MapIcon />} {...a11yProps(1)} />
+            <Tab label="Icons Validator" icon={<MapIcon />} {...a11yProps(2)} />
+          </Tabs>
+        </AppBar>
+        <TabPanel value={this.state.selectedTab} index={0}>
           <Grid container justify="center" spacing={Number(0)}>
             <Grid item xs={12}>
               <Widget className={classes.widget} title="Icons Inventory" border="top">
-                <AgGrid />
+                <FroalaIcons />
               </Widget>
+            </Grid>
+          </Grid>
+        </TabPanel>
+        <TabPanel value={this.state.selectedTab} index={1}>
+          <Grid container justify="center" spacing={Number(0)}>
+            <Grid item xs={12}>
+              <SVGValidator />
+            </Grid>
+          </Grid>
+        </TabPanel>
+        <TabPanel value={this.state.selectedTab} index={2}>
+          <Grid container justify="center" spacing={Number(0)}>
+            <Grid item xs={12}>
+                <IconsValidator />
             </Grid>
           </Grid>
         </TabPanel>
