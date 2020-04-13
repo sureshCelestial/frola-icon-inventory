@@ -16,7 +16,6 @@ import MapIcon from '@material-ui/icons/Map';
 import Box from '@material-ui/core/Box';
 import FroalaIcons from './components/FroalaIcons';
 import IconsValidator from './components/IconsValidator';
-import SVGValidator from './components/SVGValidator';
 
 // Lattice
 import { Widget } from '@latticejs/widgets';

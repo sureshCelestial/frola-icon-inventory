@@ -10,3 +10,28 @@
 .MuiGrid-item {
     margin: 17px !important;
 }
+
+.validator {
+    width: 100%;
+}
+
+.dropbox {
+    width: 50%;
+}
+
+.dropzone {
+    text-align: center;
+    padding: 20px;
+    border: 3px dashed #eeeeee;
+    background-color: #fafafa;
+    color: #bdbdbd;
+}
+
+button.btn.btn-primary {
+    float: right;
+    margin-right: 76px;
+}
+
+.selected-file {
+    margin-left: 117px;
+}

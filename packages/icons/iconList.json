@@ -1,462 +1,462 @@
 [
   {
     "iconId": "bold",
-    "iconClassKey": "fas fa-bold"
+    "iconClassKey": "zmdi zmdi-format-bold"
   },
   {
     "iconId": "italic",
-    "iconClassKey": "fas fa-italic"
+    "iconClassKey": "zmdi zmdi-format-italic"
   },
   {
     "iconId": "underline",
-    "iconClassKey": "fas fa-underline"
+    "iconClassKey": "zmdi zmdi-format-underline"
   },
   {
     "iconId": "strikeThrough",
-    "iconClassKey": "fas fa-strikeThrough"
+    "iconClassKey": "zmdi zmdi-strikeThrough"
   },
   {
     "iconId": "subscript",
-    "iconClassKey": "fas fa-subscript"
+    "iconClassKey": "zmdi zmdi-subscript"
   },
   {
     "iconId": "superscript",
-    "iconClassKey": "fas fa-superscript"
+    "iconClassKey": "zmdi zmdi-superscript"
   },
   {
     "iconId": "color",
-    "iconClassKey": "fas fa-color"
+    "iconClassKey": "zmdi zmdi-color"
   },
   {
     "iconId": "outdent",
-    "iconClassKey": "fas fa-outdent"
+    "iconClassKey": "zmdi zmdi-outdent"
   },
   {
     "iconId": "indent",
-    "iconClassKey": "fas fa-indent"
+    "iconClassKey": "zmdi zmdi-indent"
   },
   {
     "iconId": "undo",
-    "iconClassKey": "fas fa-undo"
+    "iconClassKey": "zmdi zmdi-undo"
   },
   {
     "iconId": "redo",
-    "iconClassKey": "fas fa-redo"
+    "iconClassKey": "zmdi zmdi-redo"
   },
   {
     "iconId": "insertHR",
-    "iconClassKey": "fas fa-insertHR"
+    "iconClassKey": "zmdi zmdi-insertHR"
   },
   {
     "iconId": "clearFormatting",
-    "iconClassKey": "fas fa-clearFormatting"
+    "iconClassKey": "zmdi zmdi-clearFormatting"
   },
   {
     "iconId": "selectAll",
-    "iconClassKey": "fas fa-selectAll"
+    "iconClassKey": "zmdi zmdi-selectAll"
   },
   {
     "iconId": "moreText",
-    "iconClassKey": "fas fa-moreText"
+    "iconClassKey": "zmdi zmdi-moreText"
   },
   {
     "iconId": "moreParagraph",
-    "iconClassKey": "fas fa-moreParagraph"
+    "iconClassKey": "zmdi zmdi-moreParagraph"
   },
   {
     "iconId": "moreRich",
-    "iconClassKey": "fas fa-moreRich"
+    "iconClassKey": "zmdi zmdi-moreRich"
   },
   {
     "iconId": "moreMisc",
-    "iconClassKey": "fas fa-moreMisc"
+    "iconClassKey": "zmdi zmdi-moreMisc"
   },
   {
     "iconId": "align",
-    "iconClassKey": "fas fa-align"
+    "iconClassKey": "zmdi zmdi-align"
   },
   {
     "iconId": "alignLeft",
-    "iconClassKey": "fas fa-alignLeft"
+    "iconClassKey": "zmdi zmdi-alignLeft"
   },
   {
     "iconId": "alignRight",
-    "iconClassKey": "fas fa-alignRight"
+    "iconClassKey": "zmdi zmdi-alignRight"
   },
   {
     "iconId": "alignCenter",
-    "iconClassKey": "fas fa-alignCenter"
+    "iconClassKey": "zmdi zmdi-alignCenter"
   },
   {
     "iconId": "alignJustify",
-    "iconClassKey": "fas fa-alignJustify"
+    "iconClassKey": "zmdi zmdi-alignJustify"
   },
   {
     "iconId": "html",
-    "iconClassKey": "fas fa-html"
+    "iconClassKey": "zmdi zmdi-html"
   },
   {
     "iconId": "textColor",
-    "iconClassKey": "fas fa-textColor"
+    "iconClassKey": "zmdi zmdi-textColor"
   },
   {
     "iconId": "backgroundColor",
-    "iconClassKey": "fas fa-backgroundColor"
+    "iconClassKey": "zmdi zmdi-backgroundColor"
   },
   {
     "iconId": "colorsBack",
-    "iconClassKey": "fas fa-colorsBack"
+    "iconClassKey": "zmdi zmdi-colorsBack"
   },
   {
     "iconId": "remove",
-    "iconClassKey": "fas fa-remove"
+    "iconClassKey": "zmdi zmdi-remove"
   },
   {
     "iconId": "emoticons",
-    "iconClassKey": "fas fa-emoticons"
+    "iconClassKey": "zmdi zmdi-emoticons"
   },
   {
     "iconId": "emoticonsBack",
-    "iconClassKey": "fas fa-emoticonsBack"
+    "iconClassKey": "zmdi zmdi-emoticonsBack"
   },
   {
     "iconId": "insertFile",
-    "iconClassKey": "fas fa-insertFile"
+    "iconClassKey": "zmdi zmdi-insertFile"
   },
   {
     "iconId": "fileBack",
-    "iconClassKey": "fas fa-fileBack"
+    "iconClassKey": "zmdi zmdi-fileBack"
   },
   {
     "iconId": "fontFamily",
-    "iconClassKey": "fas fa-fontFamily"
+    "iconClassKey": "zmdi zmdi-fontFamily"
   },
   {
     "iconId": "fontSize",
-    "iconClassKey": "fas fa-fontSize"
+    "iconClassKey": "zmdi zmdi-fontSize"
   },
   {
     "iconId": "inputStyle",
-    "iconClassKey": "fas fa-inputStyle"
+    "iconClassKey": "zmdi zmdi-inputStyle"
   },
   {
     "iconId": "inputEdit",
-    "iconClassKey": "fas fa-inputEdit"
+    "iconClassKey": "zmdi zmdi-inputEdit"
   },
   {
     "iconId": "inputBack",
-    "iconClassKey": "fas fa-inputBack"
+    "iconClassKey": "zmdi zmdi-inputBack"
   },
   {
     "iconId": "fullscreen",
-    "iconClassKey": "fas fa-fullscreen"
+    "iconClassKey": "zmdi zmdi-fullscreen"
   },
   {
     "iconId": "fullscreenCompress",
-    "iconClassKey": "fas fa-fullscreenCompress"
+    "iconClassKey": "zmdi zmdi-fullscreenCompress"
   },
   {
     "iconId": "help",
-    "iconClassKey": "fas fa-help"
+    "iconClassKey": "zmdi zmdi-help"
   },
   {
     "iconId": "insertImage",
-    "iconClassKey": "fas fa-insertImage"
+    "iconClassKey": "zmdi zmdi-insertImage"
   },
   {
     "iconId": "imageUpload",
-    "iconClassKey": "fas fa-imageUpload"
+    "iconClassKey": "zmdi zmdi-imageUpload"
   },
   {
     "iconId": "imageByURL",
-    "iconClassKey": "fas fa-imageByURL"
+    "iconClassKey": "zmdi zmdi-imageByURL"
   },
   {
     "iconId": "imageDisplay",
-    "iconClassKey": "fas fa-imageDisplay"
+    "iconClassKey": "zmdi zmdi-imageDisplay"
   },
   {
     "iconId": "imageAlign",
-    "iconClassKey": "fas fa-imageAlign"
+    "iconClassKey": "zmdi zmdi-imageAlign"
   },
   {
     "iconId": "imageAlignLeft",
-    "iconClassKey": "fas fa-imageAlignLeft"
+    "iconClassKey": "zmdi zmdi-imageAlignLeft"
   },
   {
     "iconId": "imageAlignRight",
-    "iconClassKey": "fas fa-imageAlignRight"
+    "iconClassKey": "zmdi zmdi-imageAlignRight"
   },
   {
     "iconId": "imageAlignCenter",
-    "iconClassKey": "fas fa-imageAlignCenter"
+    "iconClassKey": "zmdi zmdi-imageAlignCenter"
   },
   {
     "iconId": "imageAlignJustify",
-    "iconClassKey": "fas fa-imageAlignJustify"
+    "iconClassKey": "zmdi zmdi-imageAlignJustify"
   },
   {
     "iconId": "imageReplace",
-    "iconClassKey": "fas fa-imageReplace"
+    "iconClassKey": "zmdi zmdi-imageReplace"
   },
   {
     "iconId": "imageRemove",
-    "iconClassKey": "fas fa-imageRemove"
+    "iconClassKey": "zmdi zmdi-imageRemove"
   },
   {
     "iconId": "imageBack",
-    "iconClassKey": "fas fa-imageBack"
+    "iconClassKey": "zmdi zmdi-imageBack"
   },
   {
     "iconId": "imageStyle",
-    "iconClassKey": "fas fa-imageStyle"
+    "iconClassKey": "zmdi zmdi-imageStyle"
   },
   {
     "iconId": "imageAlt",
-    "iconClassKey": "fas fa-imageAlt"
+    "iconClassKey": "zmdi zmdi-imageAlt"
   },
   {
     "iconId": "imageSize",
-    "iconClassKey": "fas fa-imageSize"
+    "iconClassKey": "zmdi zmdi-imageSize"
   },
   {
     "iconId": "imageCaption",
-    "iconClassKey": "fas fa-imageCaption"
+    "iconClassKey": "zmdi zmdi-imageCaption"
   },
   {
     "iconId": "imageManager",
-    "iconClassKey": "fas fa-imageManager"
+    "iconClassKey": "zmdi zmdi-imageManager"
   },
   {
     "iconId": "imageManagerInsert",
-    "iconClassKey": "fas fa-imageManagerInsert"
+    "iconClassKey": "zmdi zmdi-imageManagerInsert"
   },
   {
     "iconId": "imageManagerDelete",
-    "iconClassKey": "fas fa-imageManagerDelete"
+    "iconClassKey": "zmdi zmdi-imageManagerDelete"
   },
   {
     "iconId": "inlineClass",
-    "iconClassKey": "fas fa-inlineClass"
+    "iconClassKey": "zmdi zmdi-inlineClass"
   },
   {
     "iconId": "inlineStyle",
-    "iconClassKey": "fas fa-inlineStyle"
+    "iconClassKey": "zmdi zmdi-inlineStyle"
   },
   {
     "iconId": "lineHeight",
-    "iconClassKey": "fas fa-lineHeight"
+    "iconClassKey": "zmdi zmdi-lineHeight"
   },
   {
     "iconId": "insertLink",
-    "iconClassKey": "fas fa-insertLink"
+    "iconClassKey": "zmdi zmdi-insertLink"
   },
   {
     "iconId": "linkOpen",
-    "iconClassKey": "fas fa-linkOpen"
+    "iconClassKey": "zmdi zmdi-linkOpen"
   },
   {
     "iconId": "linkEdit",
-    "iconClassKey": "fas fa-linkEdit"
+    "iconClassKey": "zmdi zmdi-linkEdit"
   },
   {
     "iconId": "linkRemove",
-    "iconClassKey": "fas fa-linkRemove"
+    "iconClassKey": "zmdi zmdi-linkRemove"
   },
   {
     "iconId": "linkBack",
-    "iconClassKey": "fas fa-linkBack"
+    "iconClassKey": "zmdi zmdi-linkBack"
   },
   {
     "iconId": "linkList",
-    "iconClassKey": "fas fa-linkList"
+    "iconClassKey": "zmdi zmdi-linkList"
   },
   {
     "iconId": "imageLink",
-    "iconClassKey": "fas fa-imageLink"
+    "iconClassKey": "zmdi zmdi-imageLink"
   },
   {
     "iconId": "linkStyle",
-    "iconClassKey": "fas fa-linkStyle"
+    "iconClassKey": "zmdi zmdi-linkStyle"
   },
   {
     "iconId": "formatOLSimple",
-    "iconClassKey": "fas fa-formatOLSimple"
+    "iconClassKey": "zmdi zmdi-formatOLSimple"
   },
   {
     "iconId": "formatUL",
-    "iconClassKey": "fas fa-formatUL"
+    "iconClassKey": "zmdi zmdi-formatUL"
   },
   {
     "iconId": "formatOL",
-    "iconClassKey": "fas fa-formatOL"
+    "iconClassKey": "zmdi zmdi-formatOL"
   },
   {
     "iconId": "paragraphFormat",
-    "iconClassKey": "fas fa-paragraphFormat"
+    "iconClassKey": "zmdi zmdi-paragraphFormat"
   },
   {
     "iconId": "paragraphStyle",
-    "iconClassKey": "fas fa-paragraphStyle"
+    "iconClassKey": "zmdi zmdi-paragraphStyle"
   },
   {
     "iconId": "print",
-    "iconClassKey": "fas fa-print"
+    "iconClassKey": "zmdi zmdi-print"
   },
   {
     "iconId": "getPDF",
-    "iconClassKey": "fas fa-getPDF"
+    "iconClassKey": "zmdi zmdi-getPDF"
   },
   {
     "iconId": "quickInsert",
-    "iconClassKey": "fas fa-quickInsert"
+    "iconClassKey": "zmdi zmdi-quickInsert"
   },
   {
     "iconId": "quote",
-    "iconClassKey": "fas fa-quote"
+    "iconClassKey": "zmdi zmdi-quote"
   },
   {
     "iconId": "save",
-    "iconClassKey": "fas fa-save"
+    "iconClassKey": "zmdi zmdi-save"
   },
   {
     "iconId": "specialCharacters",
-    "iconClassKey": "fas fa-specialCharacters"
+    "iconClassKey": "zmdi zmdi-specialCharacters"
   },
   {
     "iconId": "specialCharBack",
-    "iconClassKey": "fas fa-specialCharBack"
+    "iconClassKey": "zmdi zmdi-specialCharBack"
   },
   {
     "iconId": "insertTable",
-    "iconClassKey": "fas fa-insertTable"
+    "iconClassKey": "zmdi zmdi-insertTable"
   },
   {
     "iconId": "tableHeader",
-    "iconClassKey": "fas fa-tableHeader"
+    "iconClassKey": "zmdi zmdi-tableHeader"
   },
   {
     "iconId": "tableRows",
-    "iconClassKey": "fas fa-tableRows"
+    "iconClassKey": "zmdi zmdi-tableRows"
   },
   {
     "iconId": "tableColumns",
-    "iconClassKey": "fas fa-tableColumns"
+    "iconClassKey": "zmdi zmdi-tableColumns"
   },
   {
     "iconId": "tableCells",
-    "iconClassKey": "fas fa-tableCells"
+    "iconClassKey": "zmdi zmdi-tableCells"
   },
   {
     "iconId": "tableRemove",
-    "iconClassKey": "fas fa-tableRemove"
+    "iconClassKey": "zmdi zmdi-tableRemove"
   },
   {
     "iconId": "tableStyle",
-    "iconClassKey": "fas fa-tableStyle"
+    "iconClassKey": "zmdi zmdi-tableStyle"
   },
   {
     "iconId": "tableCellBackground",
-    "iconClassKey": "fas fa-tableCellBackground"
+    "iconClassKey": "zmdi zmdi-tableCellBackground"
   },
   {
     "iconId": "tableBack",
-    "iconClassKey": "fas fa-tableBack"
+    "iconClassKey": "zmdi zmdi-tableBack"
   },
   {
     "iconId": "tableCellVerticalAlign",
-    "iconClassKey": "fas fa-tableCellVerticalAlign"
+    "iconClassKey": "zmdi zmdi-tableCellVerticalAlign"
   },
   {
     "iconId": "tableCellHorizontalAlign",
-    "iconClassKey": "fas fa-tableCellHorizontalAlign"
+    "iconClassKey": "zmdi zmdi-tableCellHorizontalAlign"
   },
   {
     "iconId": "tableCellStyle",
-    "iconClassKey": "fas fa-tableCellStyle"
+    "iconClassKey": "zmdi zmdi-tableCellStyle"
   },
   {
     "iconId": "tableColorRemove",
-    "iconClassKey": "fas fa-tableColorRemove"
+    "iconClassKey": "zmdi zmdi-tableColorRemove"
   },
   {
     "iconId": "insertVideo",
-    "iconClassKey": "fas fa-insertVideo"
+    "iconClassKey": "zmdi zmdi-insertVideo"
   },
   {
     "iconId": "videoByURL",
-    "iconClassKey": "fas fa-videoByURL"
+    "iconClassKey": "zmdi zmdi-videoByURL"
   },
   {
     "iconId": "videoEmbed",
-    "iconClassKey": "fas fa-videoEmbed"
+    "iconClassKey": "zmdi zmdi-videoEmbed"
   },
   {
     "iconId": "videoUpload",
-    "iconClassKey": "fas fa-videoUpload"
+    "iconClassKey": "zmdi zmdi-videoUpload"
   },
   {
     "iconId": "videoDisplay",
-    "iconClassKey": "fas fa-videoDisplay"
+    "iconClassKey": "zmdi zmdi-videoDisplay"
   },
   {
     "iconId": "videoAlign",
-    "iconClassKey": "fas fa-videoAlign"
+    "iconClassKey": "zmdi zmdi-videoAlign"
   },
   {
     "iconId": "videoAlignLeft",
-    "iconClassKey": "fas fa-videoAlignLeft"
+    "iconClassKey": "zmdi zmdi-videoAlignLeft"
   },
   {
     "iconId": "videoAlignRight",
-    "iconClassKey": "fas fa-videoAlignRight"
+    "iconClassKey": "zmdi zmdi-videoAlignRight"
   },
   {
     "iconId": "videoAlignJustify",
-    "iconClassKey": "fas fa-videoAlignJustify"
+    "iconClassKey": "zmdi zmdi-videoAlignJustify"
   },
   {
     "iconId": "videoAlignCenter",
-    "iconClassKey": "fas fa-videoAlignCenter"
+    "iconClassKey": "zmdi zmdi-videoAlignCenter"
   },
   {
     "iconId": "videoReplace",
-    "iconClassKey": "fas fa-videoReplace"
+    "iconClassKey": "zmdi zmdi-videoReplace"
   },
   {
     "iconId": "videoRemove",
-    "iconClassKey": "fas fa-videoRemove"
+    "iconClassKey": "zmdi zmdi-videoRemove"
   },
   {
     "iconId": "videoSize",
-    "iconClassKey": "fas fa-videoSize"
+    "iconClassKey": "zmdi zmdi-videoSize"
   },
   {
     "iconId": "videoBack",
-    "iconClassKey": "fas fa-videoBack"
+    "iconClassKey": "zmdi zmdi-videoBack"
   },
   {
     "iconId": "embedly",
-    "iconClassKey": "fas fa-embedly"
+    "iconClassKey": "zmdi zmdi-embedly"
   },
   {
     "iconId": "embedlyRemove",
-    "iconClassKey": "fas fa-embedlyRemove"
+    "iconClassKey": "zmdi zmdi-embedlyRemove"
   },
   {
     "iconId": "embedlyBack",
-    "iconClassKey": "fas fa-embedlyBack"
+    "iconClassKey": "zmdi zmdi-embedlyBack"
   },
   {
     "iconId": "fontAwesome",
-    "iconClassKey": "fas fa-fontAwesome"
+    "iconClassKey": "zmdi zmdi-fontAwesome"
   },
   {
     "iconId": "fontAwesomeBack",
-    "iconClassKey": "fas fa-fontAwesomeBack"
+    "iconClassKey": "zmdi zmdi-fontAwesomeBack"
   },
   {
     "iconId": "imageTUI",
-    "iconClassKey": "fas fa-imageTUI"
+    "iconClassKey": "zmdi zmdi-imageTUI"
   }
 ]
