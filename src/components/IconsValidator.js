@@ -24,9 +24,7 @@ class IconsValidator extends Component {
     }
 
     handleInputChange = (event) =>  {
-        this.setState({
-            url: event.target.value
-        });
+        this.setState({ url: event.target.value });
     }
 
     onDrop = (acceptedFiles) => {
@@ -100,13 +98,14 @@ class IconsValidator extends Component {
 
     getIconGrid = (data) => {
         const rowData = data;
+        debugger;
         const columnDefs = [
             {
                 headerName: 'Icon Key',
                 field: 'Key'
             },
             {
-                headerName: 'Class Name',
+                headerName: 'Class Name / SVG',
                 field: 'class'
             },
             {

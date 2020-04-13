@@ -40,9 +40,9 @@ const styles = theme => ({
     color: theme.palette.primary.contrastText
   },
   widget: {
-    marginTop: theme.spacing(2),
-    marginBottom: theme.spacing(2),
-    padding: theme.spacing(4)
+    marginTop: theme.spacing(1),
+    marginBottom: theme.spacing(1),
+    padding: theme.spacing(1)
   },
   link: {
     color: theme.palette.text.secondary
@@ -129,10 +129,8 @@ class App extends Component {
         </AppBar>
         <TabPanel value={this.state.selectedTab} index={0}>
           <Grid container justify="center" spacing={Number(0)}>
-            <Grid item xs={12}>
-              <Widget className={classes.widget} title="Icons Inventory" border="top">
-                <FroalaIcons />
-              </Widget>
+            <Grid item xs={12} style={{ marign: '7 !important' }}>
+              <FroalaIcons />
             </Grid>
           </Grid>
         </TabPanel>
